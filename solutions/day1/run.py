@@ -1,8 +1,8 @@
 import re
 
 lösung = 0
-test = 'data-01-test'
-live = 'data-01-real'
+test = 'data/day1/test'
+live = 'data/day1/real'
 
 with open(live, 'r') as datei:
     for zeile in datei:
