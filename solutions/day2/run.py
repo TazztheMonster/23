@@ -1,6 +1,6 @@
 import re
 
-def getRoundValues(round:str):
+def getRoundValues(round:str) -> dict:
     colorCounter = {"red": 0, "green": 0, "blue": 0}
     turns = round.split(", ")
     for turn in turns:
